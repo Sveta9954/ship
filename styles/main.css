@@ -34,6 +34,7 @@ body {
 	background-color: #b9d6ef;
 	padding-top: 105px;
 	padding-bottom: 200px;
+	position: relative;
 }
  
 .sea {
@@ -103,6 +104,7 @@ input {
 	background-color: #327dad;
 	width: 100%;
 	height: 1%;
+	position: relative;
 }
 
 .circle {
@@ -148,4 +150,33 @@ input {
 	top: -197px;
     transform: translateX(-50%);
 	z-index: 1;
+}
+
+.ship {
+	width: 48px;
+	height: 21px;
+	position: absolute;
+	right: 50%;
+	margin-right: 152px;
+	top: -17px;
+    z-index: 3;
+}
+
+.cloud2 {
+	width: 201px;
+	height: 60px;
+	position: absolute;
+	right: 50%;
+	margin-right: 161px;
+	top: 0px;
+	
+}
+
+.cloud {
+	width: 327px;
+	height: 53px;
+	position: absolute;
+	left: 50%;
+	margin-left: 12px;
+	top: 0px;
 }
